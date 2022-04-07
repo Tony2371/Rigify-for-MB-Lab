@@ -451,7 +451,7 @@ class RIGIFYFORMBLAB_OT_generaterig(bpy.types.Operator):
                 rigify_rig.pose.bones["hand.ik" + ext].custom_shape_scale = 2.5
                 rigify_rig.pose.bones["hand.fk" + ext].custom_shape_scale = 2.5
             else:
-                rigify_rig.pose.bones["hand_ik" + ext].custom_shape_scale = 2.5
+                rigify_rig.pose.bones["hand_ik" + ext].custom_shape_scale_xyz = [2.5, 2.5, 2.5]
 
         if is_muscle_rig:
             # clean extra bones left behind
