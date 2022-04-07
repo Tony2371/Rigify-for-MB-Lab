@@ -1,4 +1,4 @@
-# Rigify-for-MB-Lab
+# Rigify-for-MB-Lab (updated for Blender 3.0 and higher)
 
 1. Download or clone the Rigify-for-MB-Lab add-on
 2. Install it by copying the directory to Blender's add-on directory or by using the blender zip installer
